@@ -134,14 +134,3 @@ STATICFILES_DIRS = [
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
 
-
-# S3 BUCKETS CONFIG
-
-AWS_ACCESS_KEY_ID = 'AKIA2YSRWAFIVEJ2LDD5'
-AWS_SECRET_ACCESS_KEY = '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'
-AWS_STORAGE_BUCKET_NAME = 'pandaboogie-crm-bucket'
-
-AWS_S3_FILE_OVERWRITE = False
-AWS_DEFAULT_ACL = None
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-# STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
