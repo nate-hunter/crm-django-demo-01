@@ -1,0 +1,28 @@
+#logo {
+}
+
+body {
+	/*background-color: #ebeff5;*/
+	/*background-color: #F99595;*/
+	background-color: #FFD7FF;
+}
+
+
+#total-orders {
+	background-color: #4cb4c7;
+	
+}
+
+
+#orders-delivered {
+	background-color: #7abecc;
+}
+
+#orders-pending {
+	background-color: #7CD1C0;
+}
+
+.nav-auth-items {
+	font-size: 18px;
+	margin-right: 20px;
+}
